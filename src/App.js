@@ -12,7 +12,7 @@ class App extends Component {
             <p>Maybe a redbull swag shop? or symphony on the potomac? maybe a place to make smart contracts with your friends for making bets?</p>
             </header>
             <Person name="josh" age="27"/>
-            <Person name="dylan" age="22"/>
+            <Person name="dylan" age="22">And I am an alter ego!</Person>
             <Person name="TS" age="30"/>
         </div> 
         );
