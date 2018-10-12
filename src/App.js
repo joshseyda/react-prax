@@ -11,9 +11,9 @@ class App extends Component {
             <img src={ logo }className = "App-logo" alt = "logo"/>
             <p>Maybe a redbull swag shop? or symphony on the potomac? maybe a place to make smart contracts with your friends for making bets?</p>
             </header>
-            <Person />
-            <Person />
-            <Person />
+            <Person name="josh" age="27"/>
+            <Person name="dylan" age="22"/>
+            <Person name="TS" age="30"/>
         </div> 
         );
     }
