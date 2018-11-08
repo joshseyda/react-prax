@@ -15,7 +15,6 @@ class Persons extends Component  {
         console.log('[Persons.js] componentDidMount');
     }
     render () {
-        console.log('[Persons.js] Render');
         return this.props.persons.map((person, index) => {
         return <Person 
             key={person.id}
