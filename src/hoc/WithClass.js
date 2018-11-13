@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 
+// this works for cases that do not connect to an API
 // const withClass = (WrappedComponent, className) => {
 //   return (props) => (
 //     <div className={className}>
