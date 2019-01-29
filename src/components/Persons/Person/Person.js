@@ -6,7 +6,7 @@ import PropTypes, { checkPropTypes } from 'prop-types';
 
 class Person extends Component {
   componentDidMount () {
-    if(this.props.position == 0){this.inputElement.focus();}
+    if(this.props.position === 0){this.inputElement.focus();}
   }
   render () {
     console.log('[Person.js] Render');
